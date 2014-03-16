@@ -55,8 +55,8 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">[Patient] Jane Doe</a></li>
-            <li><a href="#"><b>Dashboard</b></a></li>
-            <li><a href="#">Progress</a></li>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#"><b>Progress</b></a></li>
             <li><a href="#">Community</a></li>
               <ul>
                 <li><a href="#">Discussion</a></li>
@@ -68,17 +68,46 @@
         </div>
 
         <div class="col-sm-3 col-md-9 main">
-          <h1 class="page-header">Dashboard</h1>
-          <h2 class="sub-header">Goal: Walk for 30min after lunch every day this week with Anne</h2>
-          <h3>How did you do today?</h3>
-          <button type="button" class="btn btn-lg btn-success">I did it!</button>           
-          <button type="button" class="btn btn-lg btn-warning">Nope.</button>
-          <h2 class="sub-header">My next meeting with my mediator (John):</h2>
-          <h3>(March 20, 2014) 2pm</h3>
-          <button type="button" class="btn btn-lg btn-primary">Go to meeting</button>           
+          <h1 class="page-header">Goal History</h1>
+          <h2 class="sub-header">Walk for 30min after lunch daily this week with Anne (coworker)</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Week</th>
+                  <th>Assigned by (mediator)</th>
+                  <th>Did it?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>March 09-15, 2014</td>
+                  <td>John</td>
+                  <td>5/7 days</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
-        </div>
-          
+          <h2 class="sub-header">Walk for 30min after lunch every other day this week with Anne (coworker)</h2>
+          <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Week</th>
+                  <th>Assigned by (mediator)</th>
+                  <th>Did it?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>March 02-08, 2014</td>
+                  <td>John</td>
+                  <td>6/7 days</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
 
         </div>
